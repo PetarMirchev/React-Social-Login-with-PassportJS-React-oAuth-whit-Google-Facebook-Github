@@ -18,7 +18,7 @@ React App for login with Passport.js, google, facebook & github acc.
 
 // npm install cookie-session
 
-// npm install passport-google-oauth20
+// npm install passport-google-oauth20  ---> Google Developers Console. ---> https://console.developers.google.com/
 
 // npm install passport-github2   -->  https://github.com/settings/developers  --> https://www.passportjs.org/packages/passport-github2/ 
 
