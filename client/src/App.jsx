@@ -35,4 +35,3 @@ export default App;
 
 //npm install react-router-dom
 //https://www.passportjs.org/
-//18.06 min
