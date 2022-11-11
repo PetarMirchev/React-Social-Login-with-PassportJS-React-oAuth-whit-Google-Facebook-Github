@@ -7,7 +7,7 @@ React App for login with Passport.js, google, facebook & github acc.
 
 
 // npm install express
-// npm install passport
+// npm install --save passport@0.5.0 --> use v5, problem in v6 //////
 // npm install cors
 // npm install nodemon
 // npm install cookie-session
