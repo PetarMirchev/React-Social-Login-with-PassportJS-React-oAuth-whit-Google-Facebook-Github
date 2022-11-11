@@ -22,9 +22,10 @@ React App for login with Passport.js, google, facebook & github acc.
 
 ![gitImg5](https://user-images.githubusercontent.com/73035495/201359068-a5f12c84-dbf1-4250-a410-f9e118a541a2.jpg)
 ![gitImg6](https://user-images.githubusercontent.com/73035495/201359951-7eb0103b-a1df-4545-9b54-08b0e5c5c07e.jpg)
+![gitImg9](https://user-images.githubusercontent.com/73035495/201367252-c6f6f023-dce4-45a2-a723-acc5dfed0cec.jpg)
 ![gitImg10](https://user-images.githubusercontent.com/73035495/201373157-0beebf1a-63a0-42f5-a92c-63f2d75e4956.jpg)
 
 ![gitImg2](https://user-images.githubusercontent.com/73035495/201308837-85a53f66-b42e-48ca-88a2-234e48c41edc.jpg)
-![gitImg9](https://user-images.githubusercontent.com/73035495/201367252-c6f6f023-dce4-45a2-a723-acc5dfed0cec.jpg)
+
 
 ![gitImg3](https://user-images.githubusercontent.com/73035495/201309090-e38354d1-7bfe-4a1d-939f-5ac6adac73f7.jpg)
