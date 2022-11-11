@@ -2,6 +2,8 @@
 
 React App for login with Passport.js, google, facebook & github acc.
 
+//https://html-css-js.com/css/generator/box-shadow/
+
 //npm install react-router-dom
 //https://www.passportjs.org/
 
