@@ -1,0 +1,278 @@
+/* Navbar Style */
+
+.navbar{
+    height: 50px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logo{
+font-size: 20px;
+font-weight: bold;
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.listItem{
+   margin-right: 20px;
+   font-weight: 600;
+   cursor: pointewr; 
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.link{
+  /* clear link line & correct color */
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/****************************************************************************************************************/
+
+
+/* home page style to display Card content */
+.home {
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-between;
+    /* for responsive */
+    flex-wrap: wrap;
+}
+
+
+/****** card style ******/
+
+.card{
+   width:30%; 
+   padding: 10px;
+   border-radius: 15px;
+   box-shadow: 12px 11px 8px 0px rgba(0,0,0,0.61);
+-webkit-box-shadow: 12px 11px 8px 0px rgba(0,0,0,0.61);
+-moz-box-shadow: 12px 11px 8px 0px rgba(0,0,0,0.61);
+}
+
+.img {
+    width:100%;
+    height: 230px;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+.desc{
+    color: rgb(52, 47, 47);
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+.cardButton{
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/****************************************************/
+
+
+/* Post Styles */
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postImg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.postTitle{
+    font-weight: bold;
+}
+
+.postDesc{
+    padding: 0 100px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.postLongDesc{
+    padding: 100px;
+    padding-top: 25px;
+    font-size: 18px;
+    line-height: 24px;   
+}
+
+
+/*********************************************/
+  /* Login Styles */
+
+  .login{
+    /* space for login -- > height - 50px (navbar) */
+    height: calc(100vh - 50px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .loginTitle {
+    position: absolute;
+    top: 150px;
+    color: rgb(85, 81, 81);
+  }
+
+  .wrapper {
+    width: 60%;
+    height: 75%;
+    border-radius: 15px;
+    box-shadow: 12px 11px 8px 0px rgba(0,0,0,0.61);
+    -webkit-box-shadow: 12px 11px 8px 0px rgba(0,0,0,0.61);
+    -moz-box-shadow: 12px 11px 8px 0px rgba(0,0,0,0.61);
+    display: flex;
+    align-items: center;
+  }
+
+  .left, .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .center {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .or{
+    border: 2px solid lightgray;
+    border-radius: 50%;
+    padding: 10px;
+    color: rgb(101, 98, 98);
+    background-color: white;
+    font-weight: bold;
+  }
+
+  .line {
+    width: 0.5px;
+    height: 70%;
+    background-color: lightgray;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+  }
+
+  .loginButton {
+    width: 150px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .google{
+    background-color: red;
+    cursor: pointer;
+  }
+  .facebook{
+    background-color: #3062e2;
+    cursor: pointer;
+  }
+  .github{
+    background-color:black;
+    cursor: pointer;
+  }
+
+  .icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  input{
+    width: 200px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+  }
+
+  .submitBTN{
+    width: 200px;
+    background-color: rgb(8, 139, 86);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  /* for fix the cards content */
+
+  @media screen and (max-width: 992px) {
+    .card {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+  
+    .wrapper {
+      width: 65%;
+      height: 90%;
+      flex-direction: column;
+    }
+  
+    .loginTitle {
+      display: none;
+    }
+  
+    .center {
+      width: 100%;
+      position: relative;
+    }
+  
+    .left {
+      padding: 20px;
+    }
+  
+    .right {
+      padding: 20px;
+    }
+  
+    .line {
+      height: 0.5px;
+      width: 300px;
+    }
+  }
